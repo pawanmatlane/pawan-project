@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitClub</title>
+
+    <!-- Font Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Heading Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        color: white;
+        font-family: "roboto", sans-serif;
+      }
+      :root {
+        --primary: #131313;
+        --secondary: #0c090a;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+      }
+
+      .uni-pading {
+        padding: 0 7%;
+      }
+
+      .main-cont {
+        width: 100%;
+        height: 100%;
+        /* background-image: url(images/bg.jpg); */
+        background-size: cover;
+        /* padding: 10px; */
+
+        /* opacity: 0.8; */
+      }
+      .logo-n {
+        font-size: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-family: "Coda", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .s-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+        padding-top: 20px;
+      }
+      .ul-item {
+        display: flex;
+      }
+      .l-item {
+        list-style: none;
+        margin-right: 12px;
+      }
+
+      .a-item {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+      }
+      .home-btn {
+        width: 130px;
+        height: 55px;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: orangered;
+        cursor: pointer;
+      }
+      /* hr{
+  border: 0.5px solid gray;
+  margin-top: 4px;
+} */
+      .a-item:hover {
+        color: orangered;
+        transform: rotateX("angle");
+      }
+
+      .home-btn:hover {
+        background-color: rgb(232, 20, 20);
+        color: #ffffff;
+      }
+      span {
+        color: rgb(187, 18, 18);
+      }
+      /* 
+
+Program Section */
+
+      .card-section {
+        /* width: 100%; */
+        /* height: 100%; */
+        margin-top: 150px;
+        /* margin-left: 32px;
+  margin-right: 30px; */
+        /* padding: 40px; */
+      }
+      .card-h1 {
+        font-size: 35px;
+        color: white;
+        font-family: "Coda", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        /* margin-left: 13px; */
+      }
+      .heading-card {
+        font-size: 22px;
+        padding-top: 15px;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      .para-card {
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 25px;
+      }
+
+      .box1 {
+        width: 33.3%;
+        background-color: rgba(49, 46, 46, 0.925);
+        /* border: 1px solid red; */
+        border-radius: 5px;
+        margin-right: 30px;
+        /* margin-left: 15px; */
+        margin-top: 30px;
+        padding: 15px;
+        align-items: center;
+        /* position: relative; */
+      }
+      .cards {
+        display: flex;
+        flex-direction: row;
+        /* position: absolute; */
+        margin-top: 50px;
+      }
+      .card-icon {
+        font-size: 35px;
+        /* padding-bottom: 5px; */
+        background-color: orangered;
+        padding: 8px;
+        border-radius: 5px;
+      }
+
+      .box1:hover {
+        border: 1px solid orangered;
+        background-color: rgba(211, 211, 211, 0.293);
+        box-shadow: 4px 4px 10px rgba(49, 46, 46, 0.836);
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-cont">
+      <nav class="s-nav uni-pading">
+        <a href="#" class="logo-n">
+          <span>Fit</span> C <span>lub</span>
+          <!-- <img src="images/dumble.png" alt="" width="70px"> -->
+        </a>
+
+        <ul class="ul-item">
+          <li class="l-item">
+            <a href="index.html" class="a-item only">HOME</a>
+          </li>
+
+          <li class="l-item">
+            <a href="about.html" class="a-item">ABOUT</a>
+          </li>
+
+          <li class="l-item">
+            <a href="service.html" class="a-item">SERVICE</a>
+          </li>
+
+          <li class="l-item">
+            <a href="program.html" class="a-item">COURSES</a>
+          </li>
+
+          <li class="l-item">
+            <a href="" class="a-item">PLANS</a>
+          </li>
+
+          <li class="l-item">
+            <a href="" class="a-item">CONTACT US</a>
+          </li>
+        </ul>
+
+        <button class="home-btn">Join Now</button>
+      </nav>
+
+      <!-- Program Section -->
+
+      <div class="card-section uni-pading">
+        <h1 class="card-h1">EXPLORE OUR PROGRAM</h1>
+        <div class="cards">
+          <div class="box1">
+            <a href="#"><i class="fa-solid fa-hand-fist card-icon"></i></a>
+            <h1 class="heading-card">Strength</h1>
+            <p class="para-card">
+              Embrace the essence of strength as we delve into its various
+              dimensions physical, mental, and emotional.
+
+              <br /><br /><br />
+              Join Now
+            </p>
+          </div>
+          <div class="box1">
+            <a href="#"><i class="fa-solid fa-heart-crack card-icon"></i></a>
+            <h1 class="heading-card">Physical Fitness</h1>
+            <p class="para-card">
+              It encompasses a range of activiti- es that improve health,
+              strength, flexibility, and overall well-being.
+
+              <br /><br /><br />
+              Join Now
+            </p>
+          </div>
+          <div class="box1">
+            <a href="#"><i class="fa-solid fa-person-walking card-icon"></i></a>
+            <h1 class="heading-card">Fat Lose</h1>
+            <p class="para-card">
+              Through a combination of workout routines and expert guidance,
+              we'll empower you to reach your goals.
+
+              <br /><br /><br />
+              Join Now
+            </p>
+          </div>
+          <div class="box1">
+            <a href="#"><i class="fa-solid fa-weight-hanging card-icon"></i></a>
+            <h1 class="heading-card">Weight Gain</h1>
+            <p class="para-card">
+              Designed for individuals, our pro offers an effective approach to
+              gaining weight in a sustainable manner.
+
+              <br /><br />
+              Join Now
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitclub</title>
+
+    <!-- Font Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Heading Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+
+    <style>
+
+* {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        color: white;
+        font-family: "roboto", sans-serif;
+      }
+      :root {
+        --primary: #131313;
+        --secondary: #0c090a;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+      }
+
+      .uni-pading {
+        padding: 0 7%;
+      }
+
+      .main-cont {
+        width: 100%;
+        height: 100%;
+        /* background-image: url(images/bg.jpg); */
+        background-size: cover;
+        /* padding: 10px; */
+
+        /* opacity: 0.8; */
+
+        margin-bottom: 30px;
+      }
+      .logo-n {
+        font-size: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-family: "Coda", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .s-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+        padding-top: 20px;
+      }
+      .ul-item {
+        display: flex;
+      }
+      .l-item {
+        list-style: none;
+        margin-right: 12px;
+      }
+
+      .a-item {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+      }
+      .home-btn {
+        width: 130px;
+        height: 55px;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: orangered;
+        cursor: pointer;
+      }
+      /* hr{
+  border: 0.5px solid gray;
+  margin-top: 4px;
+} */
+      .a-item:hover {
+        color: orangered;
+        transform: rotateX("angle");
+      }
+
+      .home-btn:hover {
+        background-color: rgb(232, 20, 20);
+        color: #ffffff;
+      }
+      span {
+        color: rgb(187, 18, 18);
+      }
+
+
+
+
+      /* Pricing Section  */
+
+.main-price {
+  width: 100%;
+  padding: 0 7%;
+}
+
+.price-cont {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.price-head4{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.para-price {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  margin-top: 12px;
+}
+
+.price-ca {
+  background-color: #1d1d1d;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+}
+
+.price-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.p-c-h6 {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.p-c-h5 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.p-pri {
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 30px;
+}
+
+.line {
+  width: 300px;
+  border-width: 1px;
+  color: whitesmoke;
+}
+
+.price-btn {
+  width: 300px;
+  height: 50px;
+  font-size: 16px;
+  /* margin-bottom: 8px; */
+  /* position: relative;
+  top: 20%; */
+  text-align: center;
+  padding: 10px;
+  border-color: orangered;
+  border-radius: 5px;
+  color: orangered;
+  border-width: 1px;
+  background-color: #1d1d1d;
+}
+/* .price-btn3 {
+  width: 140px;
+  font-size: 9px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 7%;
+  padding: 8px;
+  border-color: orangered;
+  border-radius: 5px;
+  color: orangered;
+  border-width: 1px;
+  background-color: #1d1d1d;
+} */
+
+.price-btn:hover {
+  background-color: orangered;
+  transition: 1s;
+  color: white;
+}
+
+.price-btn3:hover {
+  background-color: orangered;
+  transition: 1s;
+  color: white;
+}
+
+.price-ca:hover {
+  background-color: rgba(211, 211, 211, 0.293);
+  transition: 1s;
+}
+
+
+
+
+    </style>
+
+
+
+  </head>
+
+  <body>
+
+    <div class="main-cont">
+      <nav class="s-nav uni-pading">
+        <a href="#" class="logo-n">
+          <span>Fit</span> C <span>lub</span>
+          <!-- <img src="images/dumble.png" alt="" width="70px"> -->
+        </a>
+
+        <ul class="ul-item">
+          <li class="l-item">
+            <a href="index.html" class="a-item only">HOME</a>
+          </li>
+
+          <li class="l-item">
+            <a href="about.html" class="a-item">ABOUT</a>
+          </li>
+
+          <li class="l-item">
+            <a href="service.html" class="a-item">SERVICE</a>
+          </li>
+
+          <li class="l-item">
+            <a href="program.html" class="a-item">COURSES</a>
+          </li>
+
+          <li class="l-item">
+            <a href="" class="a-item">PLANS</a>
+          </li>
+
+          <li class="l-item">
+            <a href="" class="a-item">CONTACT US</a>
+          </li>
+        </ul>
+
+        <button class="home-btn">Join Now</button>
+      </nav>
+  </div>    
+
+
+
+
+    <!-- Pricing Section -->
+
+    <div class="main-price uni-pading">
+      <div class="price-cont">
+        <h4 class="price-head4">OUR PRICING PLAN</h4>
+        <p class="para-price">
+          Our pricing plan comes with various membership tiers, each tailored to
+          <br />
+          cater to different preferences and fitness aspirations.
+        </p>
+      </div>
+      <br />
+
+      <div class="price-card">
+        <div class="price-ca">
+          <h6 class="p-c-h6">Basic Plan</h6>
+          <br />
+          <h5 class="p-c-h5">$16</h5>
+          <br />
+          <hr class="line" />
+          <br />
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> Smart workout plan
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> At home workouts
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> At home workouts
+          </p>
+          <br /><br />
+          <br />
+          <br />
+
+          <button class="price-btn">Join Now</button>
+        </div>
+
+        <div class="price-ca">
+          <h6 class="p-c-h6">Weekly Plan</h6>
+          <br />
+          <h5 class="p-c-h5">$25</h5>
+          <br />
+          <hr class="line" />
+          <br />
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> PRO Gyms
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> Smart workout plan
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> At home workouts
+          </p>
+          <br /><br />
+          <br />
+          <br />
+          <button class="price-btn">Join Now</button>
+        </div>
+
+        <div class="price-ca">
+          <h6 class="p-c-h6">Monthly Plan</h6>
+          <br />
+          <h5 class="p-c-h5">$45</h5>
+          <br />
+          <hr class="line" />
+          <br />
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> ELITE Gyms & Classes
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> PRO Gyms
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> Smart workout plan
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> At home workouts
+          </p>
+          <p class="p-pri">
+            <i class="fa-regular fa-circle-check"></i> Personal Training
+          </p>
+          <br />
+          <button class="price-btn">Join Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

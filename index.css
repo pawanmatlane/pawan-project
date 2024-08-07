@@ -1,0 +1,734 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #080808;
+  --primary-color-light: #101010;
+  --primary-color-extra-light: #181818;
+  --secondary-color: #202020;
+  --secondary-color-dark: #282828;
+  --text-light: #d1d5db;
+  --white:#ffffff;
+  --secondary-color: #303030;
+  --max-width: 1200px;
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(160deg, var(--primary-color-extra-light), var(--secondary-color));
+
+}
+#uni-pading{
+  padding: 0 7%;
+}
+
+.main-cont{
+  width: 100%;
+  height: 100%;
+  background-image: url(images/bg.jpg) ;
+  background-size: cover;
+  padding-top: 20px;
+}
+
+.home-logo{
+  width:600px;
+}
+
+.navbar-brand{
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+}
+
+.nav-link{
+  font-size: 18px;
+}
+
+.name{
+  color: rgb(159, 48, 7);
+}
+
+
+/* Content Section */
+
+.text-cont{
+  margin-top: 100px;
+}
+
+.text-para{
+  color: red;
+  font-size: 16px ;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.text-h1{
+  font-size: 80px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  }
+ 
+  .text-pa{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+  }
+
+  .btn1{
+    width: 110px;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;
+    margin-bottom: 110px;
+  }
+
+  
+
+  .make{
+    color: red;
+  }
+
+  /* Program Section */
+
+  .row{
+    padding: 0 7%;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  /* .card-h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+  } */
+
+
+  .box1{
+    border: none;
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  .box1:hover {
+    border: 1px solid #282828;
+    background-color: rgba(211, 211, 211, 0.293);
+    box-shadow: 4px 4px 10px rgba(49, 46, 46, 0.836);
+    transition: 1s;
+  }
+
+  .fa-solid{
+    border: 1px solid lightgray;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .prog-h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+
+  /* Class Section */
+
+  .main-clas{
+    margin-bottom: 50px;
+  }
+
+  .text-clas{
+    font-size: 33px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    line-height: 50px;
+  }
+
+
+  .btn{
+    width: 110px;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;;
+  }
+
+
+  /* Why  Join Us */
+
+
+  .main-join{
+    padding: 0 7%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+
+  .head-join{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .para-join{
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  .join-img{
+    width: 320px;
+  }
+
+  .join-text{
+    text-align: center;
+  }
+
+
+  .plan-head{
+    color: white;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .plan-para{
+    color: #ffffff;
+    font-size: 16px;
+
+  }
+
+
+  .plans{
+   
+    border: none;
+    border-radius: 15px;
+    background-color: #202020;
+    position: relative;
+    bottom: 80px;
+   
+    
+  }
+
+  .cl-12{
+    display: flex;
+    padding: 20px;
+  }
+
+  .icon-traniner{
+    margin-right: 18px;
+  }
+
+  .fa-unlock{
+    font-size: 24px;
+  }
+
+  .icon-vide{
+    margin-right: 20px;
+    font-size: 26px;
+  }
+
+  .fa-video{
+    font-size: 23px;
+  }
+
+
+  .icon-mag{
+    margin-right: 16px;
+  }
+
+  .fa-bars-progress{
+    font-size: 25px;
+  }
+
+
+
+  /* Pricing Section */
+
+
+  .price-card{
+   margin-bottom: 40px;
+   
+  }
+
+  .price-ca{
+    margin-top: 20px;
+    border: none;
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .price-head4{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .para-price{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .p-c-h6{
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+
+  }
+
+  .p-pri{
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .line{
+    color: #ffffff;
+  }
+
+
+  .price-btn {
+    width: 280px;
+    height: 50px;
+    font-size: 16px;
+    /* margin-bottom: 8px; */
+    /* position: relative;
+    top: 20%; */
+    text-align: center;
+    padding: 10px;
+    border-color: orangered;
+    border-radius: 5px;
+    color: orangered;
+    border-width: 1px;
+    background-color: #1d1d1d;
+  }
+
+  .price-btn:hover {
+    background-color: orangered;
+    transition: 1s;
+    color: white;
+  }
+  
+
+  .price-ca:hover {
+    background-color: rgba(211, 211, 211, 0.293);
+    transition: 1s;
+  }
+
+  .star {
+    font-size: 20px;
+    color: orangered;
+    margin-bottom: 35px;
+  }
+  
+
+
+  /* Review Section */
+
+
+  .reivew-cont{
+    background-color: #282828;
+    margin-bottom: 50px;
+  }
+
+  .rivew-h6{
+    color: #ffffff;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .pra-rivew{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+
+  .kolon {
+    border: none;
+    margin-top: 100px;
+    font-size: 60px;
+    color: orangered;
+    text-align: center;
+    background-color: #282828;
+
+  }
+
+  .star {
+    font-size: 20px;
+    color: orangered;
+    padding-bottom: 20px;
+  }
+
+  /* Contact Us Section */
+
+  .footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    margin-bottom: 50px;
+    
+  }
+
+  .foot-text{
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .foot-dis{
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .foot-icon1{
+    align-items: center;
+  }
+  .foot-icon2{
+    align-items: center;
+    margin-left: 5px;
+  }
+  .foot-icon3{
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 35px;
+  }
+
+  .text3{
+    margin-left: 15px;
+    text-align: center;
+  }
+
+
+  .foot-icon1 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    padding-left: 6.5px;
+    padding-bottom: 9px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .foot-icon2 {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-left: 13px;
+  }
+  .foot-icon3 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    padding-top: 12px;
+    padding-left: 11px;
+    border-radius: 50%;
+  }
+
+
+  /* Footer Section */
+
+  .main-foot{
+    width: 100%;
+    background-color: #1D1D1D;
+  }
+  
+
+  .para-foot {
+    color: #ffffff;
+    font-size: 17px;
+    margin-bottom: 7px;
+    line-height: 26px;
+  }
+  
+  .h6-foot {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 7px;
+  }
+  
+  .a-foot {
+    text-decoration: none;
+  }
+
+  
+  .foot-level{
+    position: relative;
+    top: 20px;
+  }
+
+  /* .fot-d-company{
+    position: relative;
+    top: 15px;
+  } */
+
+  .fa-brands{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    color: orangered;
+    font-size: 20px;
+  }
+
+  .foot-ri{
+    position: relative;
+    right: 30px;
+  }
+
+  .foot-le{
+    position: relative;
+    left: 70px;
+  }
+
+  .row{
+    position: relative;
+    /* bottom: 20px; */
+  }
+
+  .foot-d-le{
+    position: relative;
+    right: 30px;
+  }
+
+  .foot-d-ri{
+    position: relative;
+    left: 70px;
+  }
+
+  .foot-up{
+    position: relative;
+    /* bottom: 40px; */
+  }
+
+
+  
+  /* Copy Right Section */
+
+  .copy-right {
+    width: 100%;
+    background-color: #131313;
+    
+  }
+  
+  .foot-copy {
+    color: #ffffff;
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+
+
+@media (min-width:1024px) {
+
+  .collapse{
+    justify-content: center;
+  }
+  #uni-pading{
+    padding: 0 7%;
+  }
+
+  .btn{
+    width: 110px;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;;
+  }
+
+  .btn1{
+    width: 110px;
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: red;
+    cursor: pointer;;
+  }
+
+
+  /* class section */
+
+  .main-clas{
+    display: flex;
+    margin-top: 150px;
+  }
+
+  .img-cont{
+    margin-right: 40px;
+  }
+
+
+  .gym-img{
+    width: 750px;
+  }
+
+  .workout-img{
+    display: none;
+  }
+
+  .text-clas{
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .para-clas{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+
+  /* Why Join Us */
+
+  .main-join{
+    padding: 0 12%;
+  }
+
+  .plans{
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    bottom: 170px;
+    left: 26px;
+    
+  }
+
+  .join-img{
+    width: 1210px;
+    margin-bottom: 100px;
+  }
+
+  /* Pricing Setion */
+
+  .price-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+  }
+
+  .price-btn{
+    width: 300px;
+  }
+
+  .pricbtn-2{
+    margin-top: 33px;
+  }
+
+
+  /* Contact Section */
+
+  .foot-dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foot-text{
+    margin-left: 5px;
+  }
+
+  .foot-dis{
+    padding-right: 50px;
+  }
+
+
+
+  /* Footer Section */
+
+  .foot-dis{
+    display: flex;
+  }
+
+  .foot-ri{
+    position: relative;
+    right: 115px;
+  }
+
+  .foot-d-ri{
+    position: relative;
+    left: 320px;
+  }
+
+  .foot-le{
+    position: relative;
+    right: 30px;
+  }
+
+  .foot-d-le{
+    position: relative;
+    left: 30px;
+  }
+
+  .fa-brands{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    color: orangered;
+    font-size: 25px;
+  }
+
+}

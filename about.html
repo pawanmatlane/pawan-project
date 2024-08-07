@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITCLUB</title>
+
+   <!-- Font Icons -->
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+   integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+   crossorigin="anonymous"
+   referrerpolicy="no-referrer"
+ />
+
+ <!-- Google Font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+   rel="stylesheet"
+ />
+
+ <!-- Heading Fonts -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+   href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+   rel="stylesheet"
+ />
+
+<style>
+
+* {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        color: white;
+        font-family: "roboto", sans-serif;
+      }
+      :root {
+        --primary: #131313;
+        --secondary: #0c090a;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--primary), var(--secondary));
+      }
+
+      .uni-pading {
+        padding: 0 7%;
+      }
+
+      .main-cont {
+        width: 100%;
+        height: 100%;
+        /* background-image: url(images/bg.jpg); */
+        background-size: cover;
+        /* padding: 10px; */
+
+        /* opacity: 0.8; */
+
+        /* margin-bottom: 30px; */
+      }
+      .logo-n {
+        font-size: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-family: "Coda", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .s-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+        padding-top: 20px;
+      }
+      .ul-item {
+        display: flex;
+      }
+      .l-item {
+        list-style: none;
+        margin-right: 12px;
+      }
+
+      .a-item {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+      }
+      .home-btn {
+        width: 130px;
+        height: 55px;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: orangered;
+        cursor: pointer;
+      }
+      /* hr{
+  border: 0.5px solid gray;
+  margin-top: 4px;
+} */
+      .a-item:hover {
+        color: orangered;
+        transform: rotateX("angle");
+      }
+
+      .home-btn:hover {
+        background-color: rgb(232, 20, 20);
+        color: #ffffff;
+      }
+      span {
+        color: rgb(187, 18, 18);
+      }
+
+      /* Class Section */
+
+.clas-cont {
+  padding: 0 7%;
+  margin-top: 200px;
+  /* margin-left: 16px; */
+  /* margin-right: 45px; */
+  /* margin-bottom: 210px; */
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.text-clas {
+  /* margin-left: 30px; */
+}
+
+.img-clas {
+  width: 550px;
+  margin-right: 30px;
+}
+
+/* .img2-clas{
+  width: 150px;
+} */
+
+.h4-clas {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.clas-btn {
+  width: 130px;
+  height: 55px;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: orangered;
+  border-radius: 5px;
+  border-color: orangered;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.clas-btn:hover {
+  background-color: rgb(217, 69, 16);
+  color: whitesmoke;
+}
+.clas-para {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+
+
+</style>
+
+
+
+</head>
+<body>
+
+  <div class="main-cont">
+    <nav class="s-nav uni-pading">
+      <a href="#" class="logo-n">
+        <span>Fit</span> C <span>lub</span>
+        <!-- <img src="images/dumble.png" alt="" width="70px"> -->
+      </a>
+
+      <ul class="ul-item">
+        <li class="l-item">
+          <a href="index.html" class="a-item only">HOME</a>
+        </li>
+
+        <li class="l-item">
+          <a href="about.html" class="a-item">ABOUT</a>
+        </li>
+
+        <li class="l-item">
+          <a href="service.html" class="a-item">SERVICE</a>
+        </li>
+
+        <li class="l-item">
+          <a href="program.html" class="a-item">COURSES</a>
+        </li>
+
+        <li class="l-item">
+          <a href="" class="a-item">REVIEW</a>
+        </li>
+
+        <li class="l-item">
+          <a href="" class="a-item">CONTACT US</a>
+        </li>
+      </ul>
+
+      <button class="home-btn">Join Now</button>
+    </nav>
+
+
+     <!-- Class Section Gym -->
+    
+     <div class="clas-cont uni-pading">
+
+      <div class="img-sec">
+        <img src="images/workout.jpg" alt="" class="img-clas">
+      </div>
+
+      <div class="text-clas">
+
+        <h4 class="h4-clas">THE CLASS YOU WILL <br> GET HERE</h2>
+          <br>
+
+        <p class="clas-para">
+          Led by our team of expert and motivational instructors, "The Class You Will Get 
+          Here" is a high-energy, results-driven session that combines a perfect blend of
+           cardio, strength training, and functional exercises. Each class is carefully 
+           curate keep you engaged and challenged, ensuring you never hit a plateau
+            in your fitne endeavors.
+        </p>
+        <br><br>
+        <button class="clas-btn">Book Class</button>
+      </div>
+
+    </div>
+
+</div>    
+
+  
+</body>
+</html>
